@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    color: #555;
+    font-size: 14px;
+}
+ul{
+    list-style: none;
+}
+a,a:hover,a:active{
+    color: #555;
+    text-decoration: none;
+}
+.w50{
+    width: 50px;
+}
+.w150{
+    width: 150px;
+}
+.w200{
+    width: 200px;
+}
+.box{
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #00b38a;
+    border-radius: 5px;
+}
+.box .add-custom{
+    display: inline-block;
+    line-height: 35px;
+    font-size: 16px;
+    color: #00b38a;
+}
+.box .add-custom:hover{
+    text-decoration: underline;
+}
+.box .head{
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #00b38a;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.box .head:after{
+    display: block;
+    content: '';
+    height: 0;
+    clear: both;
+}
+.box .head span{
+    display: block;
+    float: left;
+}
+.list-custom li{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.list-custom li span{
+    float: left;
+    height: 30px;
+}
+
+/**/
+.list-custom li:nth-child(even){
+    background-color: #cccccc;
+}
+.list-custom li:hover{
+    background:khaki ;
+}
+.list-custom li span.control a{
+    display: inline-block;
+    margin: 0 3px;
+    color: #00b38a;
+}

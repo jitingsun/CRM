@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    color: #555;
+    font-size: 14px;
+}
+input{
+    outline: none;
+}
+
+
+.box{
+    width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid #00b38a;
+    border-radius: 5px;
+}
+.box div{
+    height: 50px;
+    line-height: 50px;
+}
+.box div span{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+.box div input{
+    display: inline-block;
+    width: 350px;
+    height: 25px;
+    padding: 0 10px;
+}
+#userName,#age{
+    width: 175px;
+}
+.box .submit{
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: #00b38a;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight:bold;
+    letter-spacing: 10px;
+}
